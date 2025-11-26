@@ -2,7 +2,7 @@ import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { MovieProvider } from "./constexts/MovieContext";
 import MovieCard from "./components/MovieCard";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar";
 import "./css/App.css";
 import Home from "./pages/Home";
 import Favourites from "./pages/Favourites";
